@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Custo de Rotatividade</title>
+  <link href="https://ferramentasitalents.github.io/custo-rotatividade/style.css" rel="stylesheet" />
+  <script src="https://ferramentasitalents.github.io/custo-rotatividade/scripts.js"></script>
+</head>
+<body>
+  <div id="calculator">
+    <form onsubmit="calculateCost(); return false;">
+      <label>Custo de substituição dos funcionários:</label>
+      <input type="number" id="custo-substituicao" required>
+      <br>
+      <br>
+      <label>Número total de funcionários:</label>
+      <input type="number" id="num-funcionarios" required>
+      <button type="submit">CALCULAR</button>
+    </form>
+    <div id="result"></div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
 
